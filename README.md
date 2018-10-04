@@ -2,6 +2,8 @@
 
 Adds Show, Hide buttons in the [Oxygen](http://oxygenbuilder.com/)'s editor. Hide button hides the left sidebar. Show button displays the controls.
 
+Tested in Oxygen 2.1 Beta 1.
+
 Default state (open):
 
 ![Screenshot](https://wpdevdesign.com/wp-content/uploads/2018/10/oxygen-sidebar-toggler-open.jpg)
