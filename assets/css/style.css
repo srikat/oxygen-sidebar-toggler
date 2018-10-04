@@ -1,0 +1,27 @@
+#sidebar-toggler {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1001;
+}
+
+#sidebar-toggler button {
+	background: #262e35;
+	color: rgba(255,255,255,0.7);
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 4px;
+	border: 1px solid rgba(255,255,255,0.3);
+	font-size: 12px;
+	line-height: 12px;
+	height: 31px;
+}
+
+#sidebar-toggler .show {
+	margin-right: 5px;
+}
+
+#sidebar-toggler button:hover,
+#sidebar-toggler button.active {
+	color: #fff;
+}
