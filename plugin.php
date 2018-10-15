@@ -40,8 +40,7 @@ add_action( 'oxygen_after_toolbar', 'ost_add_toggler' );
 function ost_add_toggler() { ?>
 
 	<div id="sidebar-toggler">
-		<button class="show" type="button">Show</button>
-		<button class="hide" type="button">Hide</button>
+		<button class="hide" type="button"><i class="fa fa-eye-slash"></i></button>		
 	</div>
 
 <?php }
