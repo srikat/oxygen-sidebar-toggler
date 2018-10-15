@@ -6,25 +6,27 @@
 }
 
 #sidebar-toggler button {
-   width: 35px;
-   height: 35px;
-   background-color: #1f9af0;
-   border-radius: 50%;
-   box-shadow: 0 6px 10px 0 #666;
-   transition: all 0.1s ease-in-out;
-   font-size: 15px;
-   color: #fbfbfb;
-   text-align: center;
-   line-height: 35px;
-   border:0;
-   outline:0;
-   cursor:pointer;
-   opacity:.4;
+	width: 35px;
+	height: 35px;
+	background-color: #1f9af0;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 6px 10px 0 #666;
+	        box-shadow: 0 6px 10px 0 #666;
+	-webkit-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+	font-size: 15px;
+	color: #fbfbfb;
+	text-align: center;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	opacity: 0.4;
 }
 
 #sidebar-toggler button:hover {
-   box-shadow: 0 6px 14px 0 #666;
-   transform: scale(1.05);
-   opacity:1;
-   
+   -webkit-box-shadow: 0 6px 14px 0 #666;
+           box-shadow: 0 6px 14px 0 #666;
+   -webkit-transform: scale(1.05);
+           transform: scale(1.05);
+   opacity: 1;
 }

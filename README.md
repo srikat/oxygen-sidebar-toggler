@@ -31,5 +31,8 @@ Blog post: https://wpdevdesign.com/oxygen-sidebar-toggler-plugin/
 
 ## Changelog ##
 
+### 1.0.1 - Sep 16, 2018 ###
+* UI/UX Improvements by @lucasbalzer
+
 ### 1.0.0 - Oct 04, 2018 ###
 * Initial Release

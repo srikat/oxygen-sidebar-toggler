@@ -3,7 +3,7 @@
 Plugin Name:	Oxygen Sidebar Toggler
 Plugin URI:		https://wpdevdesign.com/oxygen-sidebar-toggler-plugin/
 Description:	Adds Show, Hide buttons in the Oxygen editor. Hide button hides the left sidebar. Show button displays the controls.
-Version:		1.0.0
+Version:		1.0.1
 Author:			Sridhar Katakam
 Author URI:		https://sridharkatakam.com
 License:		GPL-2.0+
@@ -40,7 +40,7 @@ add_action( 'oxygen_after_toolbar', 'ost_add_toggler' );
 function ost_add_toggler() { ?>
 
 	<div id="sidebar-toggler">
-		<button class="hide" type="button"><i class="fa fa-eye-slash"></i></button>		
+		<button class="hide" type="button"><i class="fa fa-eye-slash"></i></button>
 	</div>
 
 <?php }
